@@ -1,5 +1,5 @@
 require 'rubygems'
-require 'open4'
+require 'popen4'
 require 'rake'
 
 $TESTING ||= false

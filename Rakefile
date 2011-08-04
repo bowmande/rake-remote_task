@@ -14,7 +14,7 @@ Hoe.spec 'rake-remote_task' do
   self.rubyforge_name = 'hitsquad'
 
   dependency 'rake',     '~> 0.8'
-  dependency 'open4',    '~> 0.9.0'
+  dependency 'popen4'
 
   multiruby_skip << "rubinius"
 end
